@@ -18,58 +18,65 @@
 
   {{ partial "header" . }}
 
-  <!-- Services -->
-  <section id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">{{ .Params.introduction.title }}</h2>
-          <h3 class="section-subheading text-muted">{{ .Params.introduction.intro }}</h3>
-        </div>
-      </div>
-      {{ range $k, $v := .Params.introduction.tiles }}
-        {{ if mod $k 3 | eq 0 }}
-        <div class="row text-center">
-        {{ end }}
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa {{ $v.icon }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ $v.title }}</h4>
-            <p class="text-muted">{{ $v.content | markdownify }}</p>
-          </div>
-        {{ if mod $k 3 | eq 2 }}
-        </div>
-        {{ end }}
-      {{ end }}
-    </div>
-  </section>
-
-
   <!-- About -->
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">What do we offer</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading">{{ .Params.introduction.title }}</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ .Params.introduction.content | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="shade">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ .Params.personal.title }}</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ .Params.personal.content | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">My skills</h2>
+          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
           <ul class="serviceline">
-            {{ range $k, $v := .Params.sections }}
+            {{ range $k, $v := .Params.skills }}
             <li>
-              <div class="serviceline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
               <div class="serviceline-panel">
                 <div class="serviceline-heading">
                     <h4>{{ $v.title | markdownify }}</h4>
                 </div>
                 <div class="serviceline-body">
-                  <p class="text-muted"> {{ $v.content | markdownify }}</p>
+                  {{ with $v.content}}<p class="text-muted">  {{ . | markdownify }}</p>{{ end }}
                 </div>
                 <ul class="points text-muted">
                   {{ range $v.points }}
@@ -81,31 +88,6 @@
             {{ end }}
           </ul>
         </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Services -->
-  <section id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">{{ .Params.process.title }}</h2>
-          <h3 class="section-subheading text-muted">{{ .Params.process.subtitle }}</h3>
-          <p> {{ .Params.process.intro }}</p>
-        </div>
-      </div>
-      <div class="row text-center">
-        {{ range $k, $v := .Params.process.tiles }}
-          <div class="col-md-3">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa {{ $v.icon }} fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">{{ $v.title }}</h4>
-            <p class="text-muted">{{ $v.content | markdownify }}</p>
-          </div>
-        {{ end }}
       </div>
     </div>
   </section>

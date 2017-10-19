@@ -25,19 +25,23 @@ personal:
   content: >-
     I have started with software development during my colledge, working with Java and .NET desktop frameworks. After graduation my interrest kept growing and I decided to persue development as my main profession. Learning new programming languages and self-improvement were my daily basis.
 
+
     I have spend few years in banking IT industry, learning enterprise level skills and technologies - IBM, Java enterprise, Websphere etc. I have spend some time building bank core system and integration to existing co-system.
 
-    I have had few startup projects behind me, worked on them as lead dev or a consultant. Most of them were __Microsoft technology__ based, built as API, WebForm and SPA. One of them really succeeded ,you may see what it is about [Repsly](www.repsly.com)
+
+    I have had few startup projects behind me, worked on them as lead dev or a consultant. Most of them were __Microsoft technology__ based, built as API, WebForm and SPA. One of them really succeeded ,you may see what it is about [Repsly](http://www.repsly.com)
+
 
     After that I spent few years doing consultancy and development for __Salesforce.com__ development based company in UK. Salesforce.com is the biggest cloud based CRM platform and client company delivers packages and products built on that platform. Beside consulting on Salesforce I have worked days and nights with a dev team to delived cloud based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and suports scalability that Salesforce build-in limitations prevent.
 
-    Currently I am working with a partner company [Zeraxo](www.zeraxo.com) as a Principal technical consultant, leading and educating a team of developers or working as a software architect / consultant on projects. We provide various development services and you can contact us if you need a __team of highly qualified software engineers__
+
+    Currently I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a Principal technical consultant, leading and educating a team of developers or working as a software architect / consultant on projects. We provide various development services and you can contact us if you need a __team of highly qualified software engineers__
 
 projects:
   title: Some of projects I have worked on
   subtitle: due to privacy agreement with my clients most of projects with my involvement cannot be listed here
   list:
-  - title: Repsly [more info](www.repsly.com)
+  - title: Repsly [more info](http://www.repsly.com)
     image:
     description: Sales force automation Saas
     technologies: ASP.NET,SQLServer,HTML5,CSS3,jQuery,IIS
@@ -47,7 +51,7 @@ projects:
     description: Satellite ground station interface
     technologies: NodeJS,HTML5,CSS3,Angular,Gulp,Grunt
 
-  - title: Cloudsense Basket API [more info](www.cloudsense.com)
+  - title: Cloudsense Basket API [more info](http://www.cloudsense.com)
     image:
     description: Basket as a service - scalable integration with salesforce platform
     technologies: Salesforce,PostgreSQL,MongoDB,NodeJS,Gulp,Grunt,HTML5,CSS3,Angular,Heroku,Docker
