@@ -71,7 +71,7 @@ projects:
 
   - title: Cloudsense Basket API
     image:
-    description: "Basket as a service" - scalable cloud system that integrates with Salesforce platform and performs as a bridge between massive web traffic and salesforce limited ordering system... [more info](http://www.cloudsense.com)
+    description: Basket as a service - scalable cloud system that integrates with Salesforce platform and performs as a bridge between massive web traffic and salesforce limited ordering system... [more info](http://www.cloudsense.com)
     technologies: 
     - Salesforce Dev
     - PostgreSQL
