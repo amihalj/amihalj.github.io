@@ -4,6 +4,8 @@ var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant')
 var pkg = require('./package.json');
 
 // Compiles SCSS files from /scss into /css
@@ -41,6 +43,15 @@ gulp.task('minify-js', function() {
         .pipe(gulp.dest('static/js'))
 });
 
+gulp.task('imagemin', function() {
+    return gulp.src('asset/img/*')
+        .pipe(imagemin({
+            progressive: true,
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('static/img'));
+});
+
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
 gulp.task('copy', function() {
@@ -73,4 +84,4 @@ gulp.task('copy', function() {
 })
 
 // Default task
-gulp.task('default', ['sass', 'minify-css', 'minify-js' /*, 'copy'*/ ]);
+gulp.task('default', ['sass', 'minify-css', 'minify-js', /*, 'copy'*/ ]);

@@ -8,13 +8,18 @@ meta:
 h1: Ante Mihalj
 subtitle: Software engineer, technology consultant, hobist musician
 avatar:
-  image-xs: null
-  image-m: null
-  image-l: null
-  image-xl: null
+  alt: Ante Mihalj
+  image_xs: /img/ante-xs.png
+  image_m: /img/ante-s.png
+  image_l: /img/ante-m.png
+  image_xl: /img/ante-l.png
 
 introduction: 
   title: About me
+  responsive_image:
+    alt: Ante Mihalj
+    image_xs: /img/ante-s.png
+    image_l: /img/ante-m.png
   content: >-
     Hi!
 
@@ -23,71 +28,104 @@ introduction:
 personal:
   title: Short history
   content: >-
-    I have started with software development during my colledge, working with Java and .NET desktop frameworks. After graduation my interrest kept growing and I decided to persue development as my main profession. Learning new programming languages and self-improvement were my daily basis.
+    I have started with __software development__ during my colledge, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
 
 
-    I have spend few years in banking IT industry, learning enterprise level skills and technologies - IBM, Java enterprise, Websphere etc. I have spend some time building bank core system and integration to existing co-system.
+    After my graduation I headed into banking IT industry, learning enterprise level skills and technologies - IBM, Java enterprise, Websphere etc. Worked mostly with Java, seen transitions from __Java EJB__ 2 to 3. I learned a lot about that world, enterprise software and banking in general. But after few years I just couldn't keep myself out of that dynamic IT world that was outside tall banking walls. Already I have started working on side web projects with some of my colledge buddies, __building websites and integrating CMS__. Working with front-end and design was a counter measure for all that banking strict world and gave me way to express my __design skills__.
 
 
-    I have had few startup projects behind me, worked on them as lead dev or a consultant. Most of them were __Microsoft technology__ based, built as API, WebForm and SPA. One of them really succeeded ,you may see what it is about [Repsly](http://www.repsly.com)
+    I decided to leave banking world and try out new startup world.I have had few startup projects behind me, worked on them as lead dev or a consultant. Most of them were __Microsoft technology__ based - building APIs on __Microsoft MVC or WebAPI__, using __Microsoft SQLServer__ in the background and building __Single Page App__ in frontend with __jQuery or Angular__. One of them had a real success ,you may see what it is about [Repsly](http://www.repsly.com) or Budgeteer. The other startup  was in satellite industry, I worked on a SPA that is dashboard for ground station control center (Angular, NodeJS, Java)
 
 
-    After that I spent few years doing consultancy and development for __Salesforce.com__ development based company in UK. Salesforce.com is the biggest cloud based CRM platform and client company delivers packages and products built on that platform. Beside consulting on Salesforce I have worked days and nights with a dev team to delived cloud based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and suports scalability that Salesforce build-in limitations prevent.
+
+    Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in UK. Salesforce.com is the __biggest cloud based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to delived cloud based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and suports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a Principal technical consultant, leading and educating a team of developers or working as a software architect / consultant on projects. We provide various development services and you can contact us if you need a __team of highly qualified software engineers__
+    Currently I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a __Principal technical consultant__, leading and educating a team of developers or working as a software architect / consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__
 
 projects:
   title: Some of projects I have worked on
-  subtitle: due to privacy agreement with my clients most of projects with my involvement cannot be listed here
   list:
-  - title: Repsly [more info](http://www.repsly.com)
-    image:
-    description: Sales force automation Saas
-    technologies: ASP.NET,SQLServer,HTML5,CSS3,jQuery,IIS
 
-  - title: Monica control center [more info](http://www.amphinicy.com/monica/)
+  - title: Repsly 
     image:
-    description: Satellite ground station interface
-    technologies: NodeJS,HTML5,CSS3,Angular,Gulp,Grunt
+    description: Repsly is the most advanced field team activation and mobile sales force tool designed for mobile teams in merchandise and similar industries. It enables mobile and coordinating teams work together in real time  ... [more info](http://www.repsly.com)
+    technologies: 
+    - ASP.NET
+    - IIS
+    - SQLServer
+    - HTML5
+    - CSS3
+    - jQuery
 
-  - title: Cloudsense Basket API [more info](http://www.cloudsense.com)
+  - title: Monica control center
     image:
-    description: Basket as a service - scalable integration with salesforce platform
-    technologies: Salesforce,PostgreSQL,MongoDB,NodeJS,Gulp,Grunt,HTML5,CSS3,Angular,Heroku,Docker
+    description: Satellite ground station graphical interface to keep instrument measurement, alarms and commands aligned. It is very satellite industry specific ... [more info](http://www.amphinicy.com/monica/)
+    technologies: 
+    - NodeJS
+    - HTML5
+    - CSS3
+    - Angular
+    - Gulp
+    - Grunt
+
+  - title: Cloudsense Basket API
+    image:
+    description: "Basket as a service" - scalable cloud system that integrates with Salesforce platform and performs as a bridge between massive web traffic and salesforce limited ordering system... [more info](http://www.cloudsense.com)
+    technologies: 
+    - Salesforce Dev
+    - PostgreSQL
+    - MongoDB
+    - NodeJS
+    - Gulp
+    - Grunt
+    - HTML5
+    - CSS3
+    - Angular
+    - Heroku
+    - Docker
 
   - title: Budgeteer
     image:
-    description: AdWords management tool
-    technologies: ASP.NET,SQLServer,HTML5,CSS3,Gulp,Grunt,SCSS  
-
-history:
-  title: History
-  content: >-  
-    I started with development during my colledge making desktop apps in .NET and Java. After my studies and few projects I decided to work in banking industries to craft enterprise development skills where I worked with technologies like **JavaEE, Beans, IBM websphere**. 
-    
-    
-    After few years I decided it's time to try something more dynamic and I joined one promising startup where I worked as a full stack lead developer with **Microsoft technologies (.NET, SQL server)** and open source (Apache, HTML+CSS, jQuery ...). Target was world wide, the bar was high and so were our hopes.
-    
-    
-    When starup has launced, passed critical time and became sucessfull product I decided it's time to try something else. I joined one agency that was specified in satellite industry software and spend a year working on their products. This is where I heavily worked in frontend **SPA technologies (Angular, HTML5) and NodeJS with MongoDb** 
-
-    Since my startup experience was involved with **CRM** I was offered to do consultancies for a client working on  **Salesforce.com platform** - world's leading CRM cloud platform. Also client wanted to integrate platform with Heroku Paas and offer e-commerce cloud Saas where a team of experts worked on implementation.
+    description: AdWords management tool that helps one keep all marketing campaings and synchronized (google and facebook)
+    technologies: 
+    - ASP.NET
+    - SQLServer
+    - HTML5
+    - CSS3
+    - Gulp
+    - Grunt
+    - SCSS  
 
 education:
+
 - title: Mathematical highschool in Zagreb (MIOC)
   years: 1995- 1999
+  degree: teenager
   
 - title: Faculty of engineering and electronics in Zagreb (FER)
   years: 1999- 2004
   degree: Batchelor of Science
 
+- title: Pure experience
+  years: 2004 - now
+  degree: Principal consultant
+
 skills:
+
 - title: Server side technologies
   points:
-  - __Microsoft__ - ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
+  - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
+  - __Linux__ - 
+
+- title: Cloud and technologies
+  points:
+  - __AWS__ - S3, API Gteway, Serverless lambda, SNS, SQS ...
+  - __Heroku__ - deployed several apps (personal and commercial) on that platform
+  - __Containers__ - Docker, Dokku
+  - __Cloud web services__ - Redis, Memcache, AQMP,...
 
 - title: Front end technologies
   points:
@@ -120,18 +158,21 @@ skills:
   - __Versioning systems__ - git, mercurial, svn
 
 hobbies:
-- title: Music
-  content: Playing guitar since I was a kid, both acoustic and electric - rocked socks of my parents and neighbors. Played in a few rock bands, still playing in one ... nothing too serious
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
-- title: Chillin'
-  content: Very rare but precious
-  responsiveImage:
-    image-xs: null
-    image-m: null
-    image-l: null
-    image-xl: null
+  title: My hobbies
+  description: Well, I am not a robot, I do other things in life too
+  list:
+  - title: Music
+    content: Playing guitar since I was a kid, both acoustic and electric - rocked socks of my parents and neighbors. Played in a few rock bands, still playing in one ... nothing too serious
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
+  - title: Chillin'
+    content: Very rare but precious
+    responsiveImage:
+      image-xs: null
+      image-m: null
+      image-l: null
+      image-xl: null
 ---

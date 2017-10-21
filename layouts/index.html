@@ -19,7 +19,7 @@
   {{ partial "header" . }}
 
   <!-- About -->
-  <section id="about">
+  <section id="about" class="about-me">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -28,7 +28,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-12 col-md-12">
+        <div class="col-lg-4 col-md-12">
+          {{ with .Params.introduction.responsive_image }}
+          <div class="avatar-image">
+            {{ partial "responsive-image" .}}
+          </div>
+          {{ end }}
+        </div>
+        <div class="col-lg-8 col-md-12">
           <p>
             {{ .Params.introduction.content | markdownify }}
           </p>
@@ -56,9 +63,37 @@
     </div>
   </section>
 
+    <!-- My projects -->
+  <section class="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">MY education</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="serviceline">
+            {{ range .Params.education }}
+            <li>
+              <div class="serviceline-panel">
+                <div class="serviceline-body">
+                  <div class="title">{{ .title }}</div>
+                  <div class="years">{{ .years }}</div>
+                  <div class="degree">{{ .degree}}</div>
+                </div>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- About -->
-  <section id="about" class="skills">
+
+  <!-- My skills -->
+  <section class="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -92,6 +127,39 @@
     </div>
   </section>
 
+  <!-- My projects -->
+  <section class="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ .Params.projects.title }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="serviceline">
+            {{ range $k, $v := .Params.projects.list }}
+            <li>
+              <div class="serviceline-panel">
+                <div class="serviceline-heading">
+                    <h4>{{ $v.title | markdownify }}</h4>
+                </div>
+                <div class="serviceline-body">
+                  {{ with $v.description}}<p class="text-muted">  {{ . | markdownify }}</p>{{ end }}
+                </div>
+                <ul class="tags text-muted">
+                  {{ range $v.technologies }}
+                  <li class="tag"><i class="fa fa-tag" aria-hidden="true"></i>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   {{ partial "footer" . }}
 </body>

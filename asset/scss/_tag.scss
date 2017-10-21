@@ -1,0 +1,16 @@
+@import "variables.scss";
+ul.tags {
+    padding: 0;
+    .tag {
+        display: inline-block;
+        margin: 0 10px 10px 0;
+        color: #ffffff;
+        background: $theme-primary;
+        font-size: 0.8em;
+        padding: 3px 6px;
+        border-radius: 10px;
+        .fa {
+            margin-right: 3px;
+        }
+    }
+}
