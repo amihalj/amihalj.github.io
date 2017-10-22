@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     &:before {
+        display: none;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -17,7 +18,7 @@
     >li {
         position: relative;
         min-height: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         &:after,
         &:before {
             display: table;
@@ -30,7 +31,7 @@
             position: relative;
             float: right;
             width: 100%;
-            padding: 0 20px 0 100px;
+            padding: 0 30px;
             text-align: left;
             &:before {
                 right: auto;
@@ -54,6 +55,16 @@
                     font-size: 0.8em;
                     color: $theme-primary;
                 }
+            }
+            .title {
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+            .years {
+                font-size: 0.8em;
+            }
+            .degree {
+                @include script-font;
             }
         }
         .serviceline-image {
@@ -103,6 +114,9 @@
             &.subheading {
                 text-transform: none;
             }
+            &.underline {
+                text-decoration: underline;
+            }
         }
     }
     .serviceline-body {
@@ -119,11 +133,10 @@
             left: 50%;
         }
         >li {
-            min-height: 100px;
-            margin-bottom: 100px;
+            min-height: 50px;
+            margin-bottom: 20px;
             .serviceline-panel {
-                float: left;
-                padding: 0 20px 20px 30px;
+                padding: 0 30px;
             }
             .serviceline-image {
                 left: 50%;
@@ -158,10 +171,9 @@
             background-color: #f1f1f1;
         }
         >li {
-            min-height: 150px;
+            min-height: 50px;
             .serviceline-panel {
-                float: left;
-                padding: 0 20px 20px 190px;
+                padding: 0 30px;
                 width: 100%;
             }
             .serviceline-image {
@@ -193,10 +205,9 @@
             background-color: #f1f1f1;
         }
         >li {
-            min-height: 170px;
+            min-height: 50px;
             .serviceline-panel {
-                float: left;
-                padding: 0 20px 20px 220px;
+                padding: 0 30px;
                 width: 100%;
             }
             .serviceline-image {

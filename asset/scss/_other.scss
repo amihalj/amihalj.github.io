@@ -1,0 +1,9 @@
+@import "variables.scss";
+section.education {
+    background-color: $theme-primary;
+    color: #fff;
+    .education-list {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}

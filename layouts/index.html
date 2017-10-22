@@ -64,7 +64,7 @@
   </section>
 
     <!-- My projects -->
-  <section class="projects">
+  <section class="education">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -73,7 +73,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <ul class="serviceline">
+          <ul class="serviceline education-list">
             {{ range .Params.education }}
             <li>
               <div class="serviceline-panel">
@@ -142,10 +142,10 @@
             <li>
               <div class="serviceline-panel">
                 <div class="serviceline-heading">
-                    <h4>{{ $v.title | markdownify }}</h4>
+                    <h4 class="underline">{{ $v.title | markdownify }}</h4>
                 </div>
                 <div class="serviceline-body">
-                  {{ with $v.description}}<p class="text-muted">  {{ . | markdownify }}</p>{{ end }}
+                  {{ with $v.description}}<p class="text-muted tx-pad-vertical">  {{ . | markdownify }}</p>{{ end }}
                 </div>
                 <ul class="tags text-muted">
                   {{ range $v.technologies }}
