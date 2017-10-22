@@ -21,12 +21,11 @@ introduction:
     image_xs: /img/ante-s.png
     image_l: /img/ante-m.png
   content: >-
-    Hi!
-
-    I am Ante Mihalj, software engineer with 15 year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
+    Hi, my name is Ante, I am a software engineer with 15 year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
   
 personal:
   title: Short history
+  subtitle: I'll try to keep it short
   content: >-
     I have started with __software development__ during my colledge, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
 
@@ -69,7 +68,7 @@ projects:
     - Gulp
     - Grunt
 
-  - title: Basket Saas
+  - title: Basket SaaS
     image:
     description: Basket as a service - scalable cloud system that integrates with Salesforce platform and performs as a bridge between massive web traffic and salesforce limited ordering system... [more info](http://www.cloudsense.com)
     technologies: 
@@ -101,7 +100,7 @@ education:
 
 - title: Mathematical highschool in Zagreb (MIOC)
   years: 1995- 1999
-  degree: teenager
+  degree: Teenager
   
 - title: Faculty of engineering and electronics in Zagreb (FER)
   years: 1999- 2004
@@ -120,7 +119,7 @@ skills:
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
   - __Linux__ - 
 
-- title: Cloud and technologies
+- title: Cloud and related technologies
   points:
   - __AWS__ - S3, API Gteway, Serverless lambda, SNS, SQS ...
   - __Heroku__ - deployed several apps (personal and commercial) on that platform
@@ -156,23 +155,22 @@ skills:
   points:
   - __Design__ - UX, paper prototyping, AB testing
   - __Versioning systems__ - git, mercurial, svn
+  - __Hosting__ - Heroku, AWS, Azure, .NET 
 
 hobbies:
   title: My hobbies
-  description: Well, I am not a robot, I do other things in life too
+  subtitle: Well, I am not a robot, I do other things in life too
   list:
   - title: Music
     content: Playing guitar since I was a kid, both acoustic and electric - rocked socks of my parents and neighbors. Played in a few rock bands, still playing in one ... nothing too serious
-    responsiveImage:
-      image-xs: null
-      image-m: null
-      image-l: null
-      image-xl: null
+    responsive_image:
+      image_xs: /img/guitar-s.jpg
+      image_m: /img/guitar-m.jpg
+      image_xl: /img/guitar-xl.jpg
   - title: Chillin'
     content: Very rare but precious
-    responsiveImage:
-      image-xs: null
-      image-m: null
-      image-l: null
-      image-xl: null
+    responsive_image:
+      image_xs: /img/chill-s.jpg
+      image_m: /img/chill-m.jpg
+      image_xl: /img/chill-xl.jpg
 ---
