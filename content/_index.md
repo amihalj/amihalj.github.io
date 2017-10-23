@@ -164,12 +164,14 @@ hobbies:
   - title: Music
     content: Playing guitar since I was a kid, both acoustic and electric - rocked socks of my parents and neighbors. Played in a few rock bands, still playing in one ... nothing too serious
     responsive_image:
+      alt: Ante mihalj guitarist
       image_xs: /img/guitar-s.jpg
       image_m: /img/guitar-m.jpg
       image_xl: /img/guitar-xl.jpg
   - title: Chillin'
     content: Very rare but precious
     responsive_image:
+      alt: me chillin
       image_xs: /img/chill-s.jpg
       image_m: /img/chill-m.jpg
       image_xl: /img/chill-xl.jpg
