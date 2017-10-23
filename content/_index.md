@@ -2,7 +2,7 @@
 title: Home
 date: 2017-10-18T08:00:00.000Z
 meta:
-  title: Ante Mihalj personal web
+  title: Ante Mihalj senior software enginer - perosonal web
   keywords: senior software developer,senior engineer,.NET development,golang development,Salesforce development,Cloud development
   description: I am a software engineer with 15 years of professional development experience in various technologies 
 h1: Ante Mihalj
