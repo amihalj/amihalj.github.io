@@ -17,7 +17,7 @@ section.education {
         margin-bottom: 10px;
         .tile-image {
             img {
-                border-radius: 20px;
+              border-radius: 20px;
             }
         }
         .front-text {
@@ -41,4 +41,78 @@ section.education {
             }
         }
     }
+}
+
+@media(min-width:250px) {
+  .image-tiles {
+    li {
+      .tile-image {
+        img {
+          border-radius: 0;
+          width:100%;
+        }
+      }
+      .front-text {
+        .title {
+          font-size: 2em;
+          bottom: 5px;
+          right: 5px;
+        }
+        .content {
+          bottom: 5px;
+          right: 5px;
+          font-size: 0.6em;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:440px) {
+  .image-tiles {
+    li {
+      .tile-image {
+        img {
+          border-radius: 0;
+          width:100%;
+        }
+      }
+      .front-text {
+        .title {
+          font-size: 2em;
+          bottom: 5px;
+          right: 5px;
+        }
+        .content {
+          bottom: 5px;
+          right: 5px;
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .image-tiles {
+    li {
+      .tile-image {
+        img {
+          border-radius: 20px;
+          width:inherit;
+        }
+      }
+      .front-text {
+        .title {
+          font-size: 2em;
+          bottom: 20px;
+          right: 20px;
+        }
+        .content {
+          bottom: 20px;
+          right: 20px;
+        }
+      }
+    }
+  }
 }
