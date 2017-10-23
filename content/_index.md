@@ -21,26 +21,26 @@ introduction:
     image_xs: /img/ante-s.png
     image_l: /img/ante-m.png
   content: >-
-    Hi, my name is Ante, I am a software engineer with 15 year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
+    Hi, my name is Ante, I am a software engineer with 15-year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
   
 personal:
   title: Short history
   subtitle: I'll try to keep it short
   content: >-
-    I have started with __software development__ during my colledge, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
+    I have started with __software development__ during my college, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
 
 
-    After my graduation I headed into banking IT industry, learning enterprise level skills and technologies - IBM, Java enterprise, Websphere etc. Worked mostly with Java, seen transitions from __Java EJB__ 2 to 3. I learned a lot about that world, enterprise software and banking in general. But after few years I just couldn't keep myself out of that dynamic IT world that was outside tall banking walls. Already I have started working on side web projects with some of my colledge buddies, __building websites and integrating CMS__. Working with front-end and design was a counter measure for all that banking strict world and gave me way to express my __design skills__.
+    After my graduation I headed into banking IT industry, learning enterprise-level skills and technologies - IBM, Java enterprise, Websphere etc. Worked mostly with Java, seen transitions from __Java EJB__ 2 to 3. I learned a lot about that world, enterprise software and banking in general. But after few years I just couldn't keep myself out of that dynamic IT world that was outside tall banking walls. Already I have started working on side web projects with some of my college buddies, __building websites and integrating CMS__. Working with front-end and design was a countermeasure for all that banking strict world and gave me a way to express my __design skills__.
 
 
-    I decided to leave banking world and try out new startup world.I have had few startup projects behind me, worked on them as lead dev or a consultant. Most of them were __Microsoft technology__ based - building APIs on __Microsoft MVC or WebAPI__, using __Microsoft SQLServer__ in the background and building __Single Page App__ in frontend with __jQuery or Angular__. One of them had a real success ,you may see what it is about [Repsly](http://www.repsly.com) or Budgeteer. The other startup  was in satellite industry, I worked on a SPA that is dashboard for ground station control center (Angular, NodeJS, Java)
+    I decided to leave banking world and try out new startup world.I have had few startup projects behind me, worked on them as the lead dev or a consultant. Most of them were __Microsoft technology__ based - building APIs on __Microsoft MVC or WebAPI__, using __Microsoft SQLServer__ in the background and building __Single Page App__ in frontend with __jQuery or Angular__. One of them had a real success, you may see what it is about [Repsly](http://www.repsly.com) or Budgeteer. The other startup  was in satellite industry, I worked on a SPA that is dashboard for ground station control center (Angular, NodeJS, Java)
 
 
 
-    Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in UK. Salesforce.com is the __biggest cloud based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to delived cloud based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and suports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
+    Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a __Principal technical consultant__, leading and educating a team of developers or working as a software architect / consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__
+    Currently, I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a __Principal technical consultant__, leading and educating a team of developers or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__
 
 projects:
   title: Some of projects I have worked on
