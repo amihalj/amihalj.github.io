@@ -104,9 +104,9 @@ education:
   
 - title: Faculty of engineering and electronics in Zagreb (FER)
   years: 1999- 2004
-  degree: Batchelor of Science
+  degree: Bachelor of Science
 
-- title: Pure experience
+- title: Hard-work experience
   years: 2004 - now
   degree: Principal consultant
 
