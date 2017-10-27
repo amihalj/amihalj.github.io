@@ -2,8 +2,8 @@
 title: Home
 date: 2017-10-18T08:00:00.000Z
 meta:
-  title: Ante Mihalj senior software enginer - perosonal web
-  keywords: senior software developer,senior engineer,.NET development,golang development,Salesforce development,Cloud development
+  title: Ante Mihalj senior software engineer - personal web
+  keywords: senior software developer,senior engineer,.NET development,go-lang development,Salesforce development,Cloud development
   description: I am a software engineer with 15 years of professional development experience in various technologies 
 h1: Ante Mihalj
 subtitle: Software engineer, technology consultant, hobist musician
@@ -52,7 +52,7 @@ projects:
     technologies: 
     - ASP.NET
     - IIS
-    - SQLServer
+    - Microsoft SQLServer
     - HTML5
     - CSS3
     - jQuery
@@ -89,7 +89,7 @@ projects:
     description: AdWords management tool that helps one keep all marketing campaings and synchronized (google and facebook)
     technologies: 
     - ASP.NET
-    - SQLServer
+    - Microsoft SQLServer
     - HTML5
     - CSS3
     - Gulp
@@ -98,11 +98,11 @@ projects:
 
 education:
 
-- title: Mathematical highschool in Zagreb (MIOC)
+- title: Mathematical highschool in Zagreb, Croatia (MIOC)
   years: 1995- 1999
   degree: Teenager
   
-- title: Faculty of engineering and electronics in Zagreb (FER)
+- title: Faculty of engineering and electronics in Zagreb, Croatia (FER)
   years: 1999- 2004
   degree: Bachelor of Science
 
