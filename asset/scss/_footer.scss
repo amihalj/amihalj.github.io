@@ -3,10 +3,19 @@ footer {
   padding: 25px 0;
   text-align: center;
   span.copyright {
-    font-size: 90%;
+    font-size: 60%;
     line-height: 40px;
     text-transform: none;
     @include heading-font;
+  }
+  span.powered-by {
+    font-size: 60%;
+    line-height: 40px;
+    text-transform: none;
+    @include heading-font;
+    a{
+
+    }
   }
   ul.quicklinks {
     font-size: 90%;

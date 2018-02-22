@@ -1,5 +1,5 @@
 {
-    "name": "webringapps.github.io",
+    "name": "amihalj.github.io",
     "version": "1.0.0",
     "description": "personal website",
     "main": "webpack.config.js",
@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com-wba:webringapps/webringapps.github.io.git"
+        "url": "git@github.com:amihalj/amihalj.github.io.git"
     },
     "author": "Ante Mihalj",
     "license": "ISC"
