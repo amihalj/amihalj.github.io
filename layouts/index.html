@@ -38,7 +38,7 @@
           <p>
             {{ .Params.introduction.content | markdownify }}
           </p>
-          {{ partial "social-buttons" .}}
+          {{ partial "social-buttons" .Params.social }}
         </div>
       </div>
     </div>

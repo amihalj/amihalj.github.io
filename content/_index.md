@@ -13,6 +13,11 @@ avatar:
   image_m: /img/ante-s.png
   image_l: /img/ante-m.png
   image_xl: /img/ante-l.png
+social:
+  twitter: https://twitter.com/ante_mihalj
+  facebook: https://www.facebook.com/ante.mihalj.94
+  linkedin: https://www.linkedin.com/in/ante-mihalj-a3558050/
+  github: https://github.com/amihalj
 
 introduction: 
   title: About me
@@ -21,7 +26,7 @@ introduction:
     image_xs: /img/ante-s.png
     image_l: /img/ante-m.png
   content: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in various technologies. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
+    Hi, my name is Ante, I am a software engineer with 15-year experience, worked with lot of technologies during my working experience and I am not afraid to take challenges. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
   
 personal:
   title: Short history
@@ -40,7 +45,7 @@ personal:
     Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently, I am working with a partner company [Zeraxo](http://www.zeraxo.com) as a __Principal technical consultant__, leading and educating a team of developers or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__
+    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant, senior developer __, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
 
 projects:
   title: Some of projects I have worked on
