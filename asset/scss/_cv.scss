@@ -3,6 +3,11 @@
   .label{
     font-weight: bold;
     color: #868e96 !important;
+    text-align: right;
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) { 
+      text-align: left
+     }
   }
 
   .bottom-separator{

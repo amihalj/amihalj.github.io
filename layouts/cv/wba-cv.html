@@ -25,15 +25,15 @@
         
         <div class="col-lg-8 col-md-12">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Name:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.name }}</div>
               </div>
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Title:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.title }}</div>
               </div>
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Date of birth:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Date of birth:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .Params.personal.dob }}</div>
               </div>
           <p>
@@ -74,23 +74,23 @@
       {{ range .Params.work_experience }}
       <div class="item">
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Dates:</div>
+          <div class="col-lg-4 col-md-4 col-sm-12 label">Dates:</div>
           <div class="col-lg-8 col-md-8 col-sm-12">{{ .period }}</div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Employer:</div>
+          <div class="col-lg-4 col-md-4 col-sm-12 label">Employer:</div>
           <div class="col-lg-8 col-md-8 col-sm-12">{{ .employer }}</div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Occupation or position held:</div>
+          <div class="col-lg-4 col-md-4 col-sm-12 label">Occupation or position held:</div>
           <div class="col-lg-8 col-md-8 col-sm-12">{{ .occupation }}</div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Main activities and responsibilities:</div>
+          <div class="col-lg-4 col-md-4 col-sm-12 label">Main activities and responsibilities:</div>
           <div class="col-lg-8 col-md-8 col-sm-12">{{ .responsibilities }}</div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Projects:</div>
+          <div class="col-lg-4 col-md-4 col-sm-12 label">Projects:</div>
           <div class="col-lg-8 col-md-8 col-sm-12">
             {{ range .projects }}
               <div>{{ with .anchor }} <a href="#{{ . }}" >{{ end }}{{ .name }}{{ with .anchor }}</a>{{ end }}</div>
@@ -103,7 +103,7 @@
   </section>
 
   <!-- Services -->
-  <section id="services" class="badges education2 cv-list">
+  <section id="services" class="badges education2 cv-table cv-list">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -115,24 +115,24 @@
           {{ range .Params.education }}
             <div class="item">
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Dates:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Dates:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .years }}</div>
               </div>
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Title of qualification awarded:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Title of qualification awarded:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .title }}</div>
               </div>
               <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Principal subjects/occupational skills covered:</div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 label">Principal subjects/occupational skills covered:</div>
                   <div class="col-lg-8 col-md-8 col-sm-12">{{ .degree }}</div>
                 </div>
               <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Name and type of organization providing education and training:</div>
+                <div class="col-lg-4 col-md-4 col-sm-12 label">Name and type of organization providing education and training:</div>
                 <div class="col-lg-8 col-md-8 col-sm-12">{{ .organization }}</div>
               </div>
               {{ with .level }}
                 <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-12 text-right label">Level in national or international classification:</div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 label">Level in national or international classification:</div>
                   <div class="col-lg-8 col-md-8 col-sm-12">{{ . }}</div>
                 </div>
               {{ end }}
