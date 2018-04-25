@@ -30,7 +30,7 @@ personal:
     image_xs: /img/ante-s.png
     image_l: /img/ante-m.png
   intro: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience, worked with lot of technologies during my working experience and I am not afraid to take challenges. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", implementing banking core systems, playing lead dev roles in few startups (both back and front end) to client consultancy and team education. 
+    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes sucessful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
 
     If you want to know a bit more please feel free to go to my [personal site](/) 
     
