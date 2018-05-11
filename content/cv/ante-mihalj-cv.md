@@ -4,7 +4,7 @@ date: 2017-10-11T14:27:44+02:00
 draft: false
 layout: wba-cv
 meta:
-  title: Ante Mihalj - team member at WeBringApps
+  title: Ante Mihalj - curriculum vitae
   keywords: senior developer, software architect, team lead, freelancer
   description: Ante Mihalj is the most experienced team member of WeBringApps team. With more than 15 year experience he covered a large field in technologies and development
 h1: Ante Mihalj - CV
@@ -23,7 +23,7 @@ headings:
 
 personal: 
   name: Ante Mihalj
-  title: Engineer of telecommunications and electronics
+  title: M.Sc. Engineer of telecommunications and electronics
   dob: Feb 18th 1981
   responsive_image:
     alt: Ante Mihalj
@@ -31,7 +31,7 @@ personal:
     image_l: /img/ante-m.png
     class: no_shift
   intro: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes sucessful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
+    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes successful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
 
     If you want to know a bit more please feel free to go to my [personal site](/) 
     
@@ -124,7 +124,7 @@ projects:
   year: 2017, 2018
   anchor: edhp
   desc: EDHP is AWS serverless lambda based integration API build on Amazon services and integrated with Azure. It is an integration API because it handles several systems and allows interaction and data sharing between them
-  role: Web lead manager, senior developer, freelancer
+  role: Senior developer, freelancer
   tags:
   - Amazon web services
   - AWS Cloud Formation
@@ -140,6 +140,7 @@ projects:
   - JWT
   - Docker
   - crypto
+  - React
 
 - name: Basket as a Service
   anchor: elastic-api
@@ -167,7 +168,8 @@ projects:
   desc: Repsly is a service for surveillance and coordination of mobile teams, merchandisers and field workers that spend their work hours outside office. System is made of core system, web application for back office users, mobile applications for field workers, API and integration modules for 3rd party ERP systems and billing system.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
-  - .NET
+  - ASP.NET
+  - C#
   - Java
   - MSSQLServer
   - jQuery
@@ -181,7 +183,8 @@ projects:
   desc: Lightweight Repsly version as stand-alone cloud application integrated with VIP telecom cloud services.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
-  - .NET
+  - ASP.NET
+  - C#
   - Java
   - MSSQLServer
   - jQuery
@@ -194,7 +197,8 @@ projects:
   desc: Service for working time surveillance according to laws of Republic of Croatia.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
-  - .NET
+  - ASP.NET
+  - C#
   - Java
   - MSSQLServer
   - jQuery
@@ -238,7 +242,7 @@ education:
   organization: University of Zagreb, Faculty of Electrical Engineering and Computing, Department of Telecommunication (Croatia)
   years: 1999- 2004
   degree: Engineer of telecommunications and electronics
-  level: M. Sc.
+  level: M. Sc. in computer science
 
 - title: High-school graduate
   organization: Mathematical gymnasium in Zagreb, Croatia (MIOC)
@@ -252,7 +256,7 @@ skills:
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
-  - __Linux__ - AWS EC2, usual operations
+  - __Linux__ - AWS EC2, Nginx, usual operations
 
 - title: Cloud and related technologies
   points:
@@ -264,7 +268,7 @@ skills:
 - title: Front end technologies
   points:
   - __General__ - HTML5, CSS3, SCSS, SASS
-  - __Javascript__ - VanillaJS, jQuery, Angular
+  - __Javascript__ - VanillaJS, jQuery, Angular, React
   - __Tools__ - grunt, gulp, webpack
 
 - title: Databases

@@ -27,7 +27,7 @@ introduction:
     image_l: /img/ante-m.png
     class: no_shift
   content: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes sucessful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
+    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes successful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
   
 personal:
   title: Short history
@@ -104,13 +104,16 @@ projects:
 
 education:
 
-- title: Mathematical highschool in Zagreb, Croatia (MIOC)
-  years: 1995- 1999
-  degree: Teenager
-  
-- title: Faculty of engineering and electronics in Zagreb, Croatia (FER)
+- title: Software engineer
+  organization: University of Zagreb, Faculty of Electrical Engineering and Computing, Department of Telecommunication (Croatia)
   years: 1999- 2004
-  degree: Bachelor of Science
+  degree: Engineer of telecommunications and electronics
+  level: M. Sc. in computer science
+
+- title: High-school graduate
+  organization: Mathematical gymnasium in Zagreb, Croatia (MIOC)
+  years: 1995- 1999
+  degree: High school
 
 - title: Hard-work experience
   years: 2004 - now
@@ -123,7 +126,7 @@ skills:
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
-  - __Linux__ - 
+  - __Linux__ - AWS EC2, Nginx
 
 - title: Cloud and related technologies
   points:
@@ -135,7 +138,7 @@ skills:
 - title: Front end technologies
   points:
   - __General__ - HTML5, CSS3, SCSS, SASS
-  - __Javascript__ - VanillaJS, jQuery, Angular
+  - __Javascript__ - VanillaJS, jQuery, Angular, React
   - __Tools__ - grunt, gulp, webpack
 
 - title: Databases
@@ -150,12 +153,13 @@ skills:
 - title: Content managment systems
   points:
   - __Umbraco CMS__ - created a dozen of umbraco backed-up websites
-  - __KeystoneJS__
+  - __KeystoneJS__ - NodeJS based CMS
+  - __Hugo__ + Netlify CMS - static website generator + CMS = blazing fast websites
 
 - title: CRM
   points:
   - __Salesforce.com__ - development, integration, testing
-  - __ZohoCRM__ - usage
+  - __ZohoCRM__ - personal use
 
 - title: Other
   points:
