@@ -49,7 +49,7 @@ personal:
     Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant, senior developer __, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
+    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant__, __senior developer__, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
 
 work_experience:
 - employer: We Bring Apps
