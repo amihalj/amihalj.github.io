@@ -129,6 +129,7 @@ projects:
   role: Senior developer, freelancer
   tags:
   - Kubernetes cluster
+  - Helm
   - Golang
   - NodeJS
   - Mongo
