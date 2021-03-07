@@ -60,6 +60,8 @@ work_experience:
   projects:
   - name: EDHP
     anchor: edhp
+  - name: Betting platform
+    anchor: betting
 - employer: Zeraxo
   link: http://www.zeraxo.com
   period: Jan 2016 - Jan 2018
@@ -120,8 +122,23 @@ work_experience:
   - name: NPC Collections
 
 projects:
+- name: Betting platform
+  year: "> 2019"
+  anchor: betting
+  desc: This betting platform is a micro-service eco system, built (mostly) in Golang , communicating asynchronously through Kafka and gRPC, caching with Redis and Mongo. Since it's micro-service architecture it is highly available and scalable
+  role: Senior developer, freelancer
+  tags:
+  - Kubernetes cluster
+  - Golang
+  - NodeJS
+  - Mongo
+  - Kafka
+  - OAuth
+  - JWT
+  - Docker
+
 - name: EDHP
-  year: 2017, 2018
+  year: "> 2017"
   anchor: edhp
   desc: EDHP is AWS serverless lambda based integration API build on Amazon services and integrated with Azure. It is an integration API because it handles several systems and allows interaction and data sharing between them
   role: Senior developer, freelancer
@@ -144,7 +161,7 @@ projects:
 
 - name: Basket as a Service
   anchor: elastic-api
-  year: 2015, 2016
+  year: 2015 - 2016
   desc: BaaS (Basket as a Service) is cloud based e-commerce system designed as a highly-available micro-service that integrates CMS webshop and Salesforce CRM. Project includes Salesforce component development, Heroku cloud development(NodeJS) and CMS (Drupal) integration
   role: Web lead manager, senior developer (both back and frontend)
   tags:
@@ -164,7 +181,7 @@ projects:
 
 - name: Repsly
   anchor: repsly
-  year: 2010, 2011, 2012, 2013
+  year: 2010 - 2013
   desc: Repsly is a service for surveillance and coordination of mobile teams, merchandisers and field workers that spend their work hours outside office. System is made of core system, web application for back office users, mobile applications for field workers, API and integration modules for 3rd party ERP systems and billing system.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
@@ -179,7 +196,7 @@ projects:
   
 
 - name: VIP Sales surveillance
-  year: 2010, 2011
+  year: 2010 - 2011
   desc: Lightweight Repsly version as stand-alone cloud application integrated with VIP telecom cloud services.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
@@ -193,7 +210,7 @@ projects:
   - Javascript
 
 - name: VIP Working time surveillancesly
-  year: 2010, 2011
+  year: 2010 - 2011
   desc: Service for working time surveillance according to laws of Republic of Croatia.
   role: Web lead manager, senior developer (both back and frontend)
   tags:
@@ -207,7 +224,7 @@ projects:
   - Javascript
 
 - name: Monica
-  year: 2013, 2014
+  year: 2013 - 2014
   anchor: monica
   desc: Web based monitoring and controlling app for satellite ground stations. System contains several modules that are interconnected and presented through one UI concepted as a dashboard, action center. My main focus was UI development (SPA) and UX guidelines
   role: Web lead developer, UX expert
@@ -224,7 +241,7 @@ projects:
   - Mocha
 
 - name: Sirius RBA
-  year: 2006, 2007, 2008, 2009, 2010
+  year: 2006 - 2010
   anchor: sirius
   desc: RBA core banking system and integration with external and secondary modules through MQ Websphere Messaging
   role: Senior developer
