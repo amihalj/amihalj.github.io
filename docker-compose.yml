@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  amihaljweb:
+    image: nginx:latest
+    ports:
+      - 9999:80
+    volumes:
+    - ./public:/usr/share/nginx/html

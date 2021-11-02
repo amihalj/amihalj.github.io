@@ -6,7 +6,7 @@ meta:
   keywords: senior software developer,senior engineer,.NET development,go-lang development,Salesforce development,Cloud development
   description: I am a software engineer with 15 years of professional development experience in various technologies 
 h1: Ante Mihalj
-subtitle: Software engineer, technology consultant, hobist musician
+subtitle: Software engineer, technology consultant, freelancer
 avatar:
   alt: Ante Mihalj
   image_xs: /img/ante-xs.png
@@ -46,11 +46,25 @@ personal:
     Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
 
-    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant, senior developer __, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
+    I work as a __freelancer__, focused on following deliveries:
+
+      - educating a team of developers to perform better collaboration on a project
+      - software arhitect/consultant for microserviced systems
+      - clean code education, peer reviewing
+      - Go programming language education
+
 
 projects:
   title: Some of projects I have worked on
   list:
+
+  - title: IBM cloud 
+    image:
+    description: IBM cloud is an enterprise designed cloud infrastructure, supported by a large number of engineers and companies through collaboration. The goal is to provide top class enterprise solution for cloud based IT applications... [more info](https://www.ibm.com/cloud)
+    technologies: 
+    - Go
+    - Kubernetes
+    - Docker
 
   - title: Repsly 
     image:
@@ -123,6 +137,7 @@ skills:
 
 - title: Server side technologies
   points:
+  - __Go programming language__
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
