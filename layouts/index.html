@@ -61,6 +61,21 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ .Params.freelance.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ .Params.freelance.subtitle }}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ .Params.freelance.content | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
     <!-- My projects -->

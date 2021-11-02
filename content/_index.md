@@ -45,7 +45,9 @@ personal:
 
     Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
 
-
+freelance:
+  title: What do I do
+  content: >-
     I work as a __freelancer__, focused on following deliveries:
 
       - educating a team of developers to perform better collaboration on a project
