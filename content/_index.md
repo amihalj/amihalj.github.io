@@ -3,8 +3,8 @@ title: Home
 date: 2017-10-18T08:00:00.000Z
 meta:
   title: Ante Mihalj senior software engineer - personal web
-  keywords: senior software developer,senior engineer,.NET development,go-lang development,Salesforce development,Cloud development
-  description: I am a software engineer with 15 years of professional development experience in various technologies 
+  keywords: senior software developer,senior engineer,.NET development,Golang development,Salesforce development,Cloud development,Kubernetes
+  description: I am a software engineer with 20 years of professional development experience in various technologies 
 h1: Ante Mihalj
 subtitle: Software engineer, technology consultant, freelancer
 avatar:
@@ -27,41 +27,142 @@ introduction:
     image_l: /img/ante-m.png
     class: no_shift
   content: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes successful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
+    My name is Ante, I am a software engineer with 20+Y working experience in software development. 
+
+
+    
+    During that time I have worked through different roles and technologies during which time I have acquired knowledge and skills to successfully deliver them into practice. My experience includes software development with an understanding of complex business domains, team leadership, team education and technology consultancy. I am not afraid to take on new challenges and adapt to situations.
+
+
+
+    I value hard work, team spirit and constant search for knowledge. Lots of software engineers look for a way out of technology, I choose to stay in.
+
+    Check my [CV](/cv/ante-mihalj-cv/) 
   
 personal:
-  title: Short history
-  subtitle: I'll try to keep it short
+  title: My history
+  subtitle: or some ancient history
   content: >-
-    I have started with __software development__ during my college, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
+    __Enterprise era__:
 
 
-    After my graduation I headed into banking IT industry, learning enterprise-level skills and technologies - IBM, Java enterprise, Websphere etc. Worked mostly with Java, seen transitions from __Java EJB__ 2 to 3. I learned a lot about that world, enterprise software and banking in general. But after few years I just couldn't keep myself out of that dynamic IT world that was outside tall banking walls. Already I have started working on side web projects with some of my college buddies, __building websites and integrating CMS__. Working with front-end and design was a countermeasure for all that banking strict world and gave me a way to express my __design skills__.
+    I have started __software development__ during my college, started with some standard stuff at the time (__JAVA__, __.NET__). It was big at the time, banks and corps were constantly looking for workforce to cover their thirst for development. That was the time everybody were doing stuff like: 
+
+    - Java enterprise
+
+    - EJB (java beans)
+
+    - .NET WebForms
+
+    - Oracle DB, MSSQLServer, IBM DB2
 
 
-    I decided to leave banking world and try out new startup world.I have had few startup projects behind me, worked on them as the lead dev or a consultant. Most of them were __Microsoft technology__ based - building APIs on __Microsoft MVC or WebAPI__, using __Microsoft SQLServer__ in the background and building __Single Page App__ in frontend with __jQuery or Angular__. One of them had a real success, you may see what it is about [Repsly](http://www.repsly.com) or Budgeteer. The other startup  was in satellite industry, I worked on a SPA that is dashboard for ground station control center (Angular, NodeJS, Java)
+    Like I said, everybody was doing that, I was doing that too. I learned a lot about that world, enterprise software and banking in general. But after a bit, I was a bit bored with it so I started with other things like __CMS__, __Javascript__, __MVC__ and some open-source projects that were evolving around HTML, CSS etc.
+
+
+    __Start-up era__:
+
+
+    Then it came 2008 with economic crisis and 2009 with recession. Suddenly all these enterprise and bank projects were hit hard, I realized it is time to adapt or to burn. Luckily I was already one foot in the door with open-source projects and I just switched to these new cool technologies where everything seemed tangible. ou could develop faster, you could demo it sooner than ever before. At the time I was joining a few startups, we were delivering products faster than ever before with these cool technologies:
+
+    - .NET MVC
+
+    - NodeJS
+
+    - MongoDB
+
+    - Single page apps
+      - jQuery, Angular
+      - HTML, CSS, SCSS, bootstrap
 
 
 
-    Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
+
+    __Cloud era__:
+
+
+    After few startups and few years working there I have learn one thing:
+
+    To deliver an application it takes 2 basic steps:
+
+    - write application code
+
+    - deploy and run it
+
+    
+    Second step is equaly important as the first one. Operations matter! Apps should be deployed to scale up if necessary or  should scale down to preserve budget if necessary.
+
+
+    At the time I was working on __Salesforce.com__ platform. It is cloud native __CRM__ number one in the world, and even though it is cloud-native, some things cannot be fixed by adding more money to it. Tried to improve its scalability by integrating part of the system with other cloud providers, doing in-cloud computations etc. Some things just have to have the different architecture to be cloud-ready.
+
+
+    I have started to work with different clouds and services (Heroku, AWS, IBM), learned a lot about services and automation processes, reusable components and vendor services like:
+
+    - AWS lambda
+
+    - AWS Cognito
+
+    - Kubernetes
+
+    - Docker containers
+
+    - monitoring
+      - Prometheus
+      - Grafana
+      - Cloudwatch
+
+    
+    At this time I already started with full time freelancing, I learned to adapt to new technologies quickly as the client would require to. I guess you __can__ teach an old dog some new trick.
+
+
+    __Educational era__: 
+
+
+    As I said in the previous section, I learned a lot about operations and clouds. Apps should scale!
+
+    On the other hand, I have also realized I can't scale like that, my time is limited. I have to learn new technologies every day, I need to adapt them, but also I need to __teach__ younger devs how to do the same. How to adapt, how to learn from the dev process.
+
+    I have to learn from younger devs about new cool technologies and at the same time teach them the best I can:
+
+    - teach
+
+    - learn
+
+    - apply
+
+
+    Still doing that. Still trying.
+
+
 
 freelance:
-  title: What do I do
+  title: What do I offer
   content: >-
     I work as a __freelancer__, focused on following deliveries:
 
       - educating a team of developers to perform better collaboration on a project
       - software arhitect/consultant for microserviced systems
       - clean code education, peer reviewing
-      - Go programming language education
+      - __Go__ programming language education
+      - __Rust__ programming language education
 
 
 projects:
-  title: Some of projects I have worked on
+  title: Some of (last) projects I have worked on
   list:
 
+  - title: Stockex
+    link: /cv/ante-mihalj-cv/#stockex
+    description: Stockex is a software service to support company auction/bidding system. 
+    technologies: 
+    - Rust
+    - Postgres
+    - Svelte
+    - OpenAPI
+    - Docker
+
   - title: IBM cloud 
-    image:
+    link: /cv/ante-mihalj-cv/#ibm
     description: IBM cloud is an enterprise designed cloud infrastructure, supported by a large number of engineers and companies through collaboration. The goal is to provide top class enterprise solution for cloud based IT applications... [more info](https://www.ibm.com/cloud)
     technologies: 
     - Go
@@ -69,7 +170,7 @@ projects:
     - Docker
 
   - title: Repsly 
-    image:
+    link: /cv/ante-mihalj-cv/#repsly
     description: Repsly is the most advanced field team activation and mobile sales force tool designed for mobile teams in merchandise and similar industries. It enables mobile and coordinating teams work together in real time  ... [more info](http://www.repsly.com)
     technologies: 
     - ASP.NET
@@ -80,7 +181,7 @@ projects:
     - jQuery
 
   - title: Monica control center
-    image:
+    link: /cv/ante-mihalj-cv/#monica
     description: Satellite ground station graphical interface to keep instrument measurement, alarms and commands aligned. It is very satellite industry specific ... [more info](http://www.amphinicy.com/monica/)
     technologies: 
     - NodeJS
@@ -91,7 +192,7 @@ projects:
     - Grunt
 
   - title: Basket SaaS
-    image:
+    link: /cv/ante-mihalj-cv/#elastic-api
     description: Basket as a service - scalable cloud system that integrates with Salesforce platform and performs as a bridge between massive web traffic and salesforce limited ordering system... [more info](http://www.cloudsense.com)
     technologies: 
     - Salesforce Dev
@@ -106,17 +207,6 @@ projects:
     - Heroku
     - Docker
 
-  - title: Budgeteer
-    image:
-    description: AdWords management tool that helps one keep all marketing campaings and synchronized (google and facebook)
-    technologies: 
-    - ASP.NET
-    - Microsoft SQLServer
-    - HTML5
-    - CSS3
-    - Gulp
-    - Grunt
-    - SCSS  
 
 education:
 
@@ -139,23 +229,24 @@ skills:
 
 - title: Server side technologies
   points:
-  - __Go programming language__
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
   - __Linux__ - AWS EC2, Nginx
+  - __Other popular languages__ - Go, Rust, bash
 
 - title: Cloud and related technologies
   points:
-  - __AWS__ - S3, API Gteway, Serverless lambda, SNS, SQS ...
+  - __AWS__ - S3, API Gateway, CloudFormation, Lambda functions, Cognito, CloudWatch, SNS, SQS ...
   - __Heroku__ - deployed several apps (personal and commercial) on that platform
-  - __Containers__ - Docker, Dokku
-  - __Cloud web services__ - Redis, Memcache, AQMP,...
+  - __Containers__ - Docker, Dokku, Kubernetes, ...
+  - __Cloud web services__ - Redis, Memcache, AQMP, ...
+
 
 - title: Front end technologies
   points:
   - __General__ - HTML5, CSS3, SCSS, SASS
-  - __Javascript__ - VanillaJS, jQuery, Angular, React
+  - __Javascript__ - VanillaJS, jQuery, Angular, React, Svelte
   - __Tools__ - grunt, gulp, webpack
 
 - title: Databases

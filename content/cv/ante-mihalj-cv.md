@@ -31,26 +31,20 @@ personal:
     image_l: /img/ante-m.png
     class: no_shift
   intro: >-
-    Hi, my name is Ante, I am a software engineer with 15-year experience in software industry. My experience includes successful team leadership combined with understanding complex business domains and delivering them into practice. I have worked with lot of technologies during my working experience and I am not afraid to take challenges, learn new things and adopt. I value hard work, team spirit and search for knowledge. I have made a full circle from "Hello worlds", building enterprise architectures, programming and designing software, playing lead dev roles in few startups (both back and front end) to client consultancy and team education.
+    My name is Ante, I am a software engineer with 20+Y working experience in software development. 
+
+
+    
+    During that time I have worked through different roles and technologies during which time I have acquired knowledge and skills to successfully deliver them into practice. My experience includes software development with an understanding of complex business domains, team leadership, team education and technology consultancy. I am not afraid to take on new challenges and adapt to situations.
+
+
+
+    I value hard work, team spirit and constant search for knowledge.
+
+
 
     If you want to know a bit more please feel free to go to my [personal site](/) 
     
-  content: >-
-    I have started with __software development__ during my college, working with __Java__ and __.NET__ desktop frameworks. Java was still young, so was C#. Everything was Object Oriented except when I had to work with Javascript. At that time it was really Vanilla. Learning new programming languages and self-improvement were my daily basis.
-
-
-    After my graduation I headed into banking IT industry, learning enterprise-level skills and technologies - IBM, Java enterprise, Websphere etc. Worked mostly with Java, seen transitions from __Java EJB__ 2 to 3. I learned a lot about that world, enterprise software and banking in general. But after few years I just couldn't keep myself out of that dynamic IT world that was outside tall banking walls. Already I have started working on side web projects with some of my college buddies, __building websites and integrating CMS__. Working with front-end and design was a countermeasure for all that banking strict world and gave me a way to express my __design skills__.
-
-
-    I decided to leave banking world and try out new startup world.I have had few startup projects behind me, worked on them as the lead dev or a consultant. Most of them were __Microsoft technology__ based - building APIs on __Microsoft MVC or WebAPI__, using __Microsoft SQLServer__ in the background and building __Single Page App__ in frontend with __jQuery or Angular__. One of them had a real success, you may see what it is about [Repsly](http://www.repsly.com) or Budgeteer. The other startup  was in satellite industry, I worked on a SPA that is dashboard for ground station control center (Angular, NodeJS, Java)
-
-
-
-    Also I spent few years doing __consultancy and development for Salesforce.com__ development based company in the UK. Salesforce.com is the __biggest cloud-based CRM platform__ and client company delivers packages and products built on that platform. Along with consulting I have worked days and nights with a dev team to deliver cloud-based e-commerce API system hosted on __Heroku__ that integrates with Salesforce and supports scalability. If you have ever worked with Salesforce, then you know what I am talking about. Salesforce limitations are one hard place between you and that rock that keeps bashing your projects.
-
-
-    Currently, I am working as a __freelancer__ through my freelance agency [We Bring Apps](http://www.webringapps.com) as a __Principal technical consultant__, __senior developer__, working and educating a team of developers on collaborate projects or working as a software architect/consultant on projects. The team provides various development services and you can contact us if you need a __team of highly qualified software engineers__.
-
 work_experience:
 - employer: We Bring Apps
   link: http://www.webringapps.com
@@ -58,6 +52,10 @@ work_experience:
   occupation: Founder, Technical consultant, Software architect
   responsibilities:  Enforcing best practices in software development, team leader, technical consultant, senior developer, freelancer
   projects:
+  - name: Stockex
+    anchor: stockex
+  - name: IBM cloud
+    anchor: ibm
   - name: EDHP
     anchor: edhp
   - name: Betting platform
@@ -122,27 +120,47 @@ work_experience:
   - name: NPC Collections
 
 projects:
-- name: Betting platform
-  year: "> 2019"
-  anchor: betting
-  desc: This betting platform is a micro-service eco system, built (mostly) in Golang , communicating asynchronously through Kafka and gRPC, caching with Redis and Mongo. Since it's micro-service architecture it is highly available and scalable
-  role: Senior developer, freelancer
+- name: Stockex
+  year: "> 2023"
+  anchor: stockex
+  desc: Stockex is a software service to support company auction/bidding system. This is a microservice architecture system with external integrations, runs in containers and is monitored through prometheus metrics and grafana dashboards.
+  role: Lead developer, freelancer
   tags:
-  - Kubernetes cluster
-  - Helm
-  - Golang
-  - NodeJS
-  - Mongo
-  - Kafka
+  - Rust Actix
+  - Postgres
   - OAuth
   - JWT
   - Docker
+  - push notifications
+  - github workflows
+  - Svelte
+  - Prometheus
+  - Grafana
+  - Alert manager
+
+- name: IBM Cloud storage systems
+  year: 2021 - 2022
+  anchor: ibm
+  desc: Microservice oriented API to support cluster storage. 
+  role: Senior developer, freelancer
+  tags:
+  - Kubernetes
+  - etch
+  - Go-lang
+  - k3d
+  - NodeJS
+  - bash
+  - Docker
+  - IBM cloud
+  - encryption at transit
+  - encryption at rest
+
 
 - name: EDHP
-  year: "> 2017"
+  year: 2017 - 2023
   anchor: edhp
   desc: EDHP is AWS serverless lambda based integration API build on Amazon services and integrated with Azure. It is an integration API because it handles several systems and allows interaction and data sharing between them
-  role: Senior developer, freelancer
+  role: Lead developer, freelancer
   tags:
   - Amazon web services
   - AWS Cloud Formation
@@ -159,6 +177,23 @@ projects:
   - Docker
   - crypto
   - React
+
+- name: Betting platform
+  year: 2019 - 2021
+  anchor: betting
+  desc: This betting platform is a micro-service eco system, built (mostly) in Golang , communicating asynchronously through Kafka and gRPC, caching with Redis and Mongo. Since it's micro-service architecture it is highly available and scalable
+  role: Senior developer, freelancer
+  tags:
+  - Kubernetes cluster
+  - Helm
+  - Go-lang
+  - NodeJS
+  - Mongo
+  - Kafka
+  - OAuth
+  - JWT
+  - Docker
+  - github workflows
 
 - name: Basket as a Service
   anchor: elastic-api
@@ -274,7 +309,8 @@ skills:
   - __Microsoft__ - Server, ASP.NET, Webforms, MVC, WebApi, ASP.NET Core
   - __Java__ - Java EE, Java Beans, Spring Framework, ...
   - __NodeJS__ - ExpressJS, Restify, AWS SDK, ...
-  - __Linux__ - AWS EC2, Nginx, usual operations
+  - __Linux__ - nginx, bash
+  - __Other popular languages__ - Go, Rust, bash
 
 - title: Cloud and related technologies
   points:
@@ -282,6 +318,7 @@ skills:
   - __Heroku__ - deployed several apps (personal and commercial) on that platform
   - __Containers__ - Docker, Dokku, Kubernetes, ...
   - __Cloud web services__ - Redis, Memcache, AQMP, ...
+
 
 - title: Front end technologies
   points:

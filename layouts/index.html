@@ -44,23 +44,7 @@
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="shade">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">{{ .Params.personal.title }}</h2>
-          <h3 class="section-subheading text-muted">{{ .Params.personal.subtitle }}</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <p>
-            {{ .Params.personal.content | markdownify }}
-          </p>
-        </div>
-      </div>
-    </div>
+  <section class="my-offer">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -78,7 +62,26 @@
     </div>
   </section>
 
-    <!-- My projects -->
+  <!-- History -->
+  <section class="shade history">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">{{ .Params.personal.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ .Params.personal.subtitle }}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <p>
+            {{ .Params.personal.content | markdownify }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- My education -->
   <section class="education">
     <div class="container">
       <div class="row">
@@ -157,6 +160,7 @@
               <div class="serviceline-panel">
                 <div class="serviceline-heading">
                     <h4 class="underline">{{ $v.title | markdownify }}</h4>
+                    {{ with $v.link }} <a href="{{ . }}">Check details in cv</a>{{ end }}
                 </div>
                 <div class="serviceline-body">
                   {{ with $v.description}}<p class="text-muted tx-pad-vertical">  {{ . | markdownify }}</p>{{ end }}
@@ -175,8 +179,8 @@
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="hobbies">
+  <!-- Hobbies -->
+  <section class="hobbies">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
