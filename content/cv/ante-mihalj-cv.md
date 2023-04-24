@@ -8,7 +8,7 @@ meta:
   keywords: senior developer, software architect, team lead, freelancer
   description: Ante Mihalj is the most experienced team member of WeBringApps team. With more than 15 year experience he covered a large field in technologies and development
 h1: Ante Mihalj - CV
-subtitle: software engineer, consultant, software architect
+subtitle: Software engineer, technology consultant, freelancer
 tags: blank
 social:
   twitter: https://twitter.com/ante_mihalj
