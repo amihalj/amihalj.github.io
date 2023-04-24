@@ -4,3 +4,4 @@ static/css/main.min.css
 static/js/main.min.js
 node_modules
 package-lock.json
+.hugo_build.lock
