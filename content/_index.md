@@ -280,7 +280,7 @@ hobbies:
   subtitle: Well, I am not a robot, I do other things in life too
   list:
   - title: Music
-    content: Playing guitar since I was a kid, both acoustic and electric - rocked socks of my parents and neighbors. Played in a few rock bands, still playing in one ... nothing too serious
+    content: I have been involved in music since my childhood and played a few instruments but the electric guitar is the one that still rocks my world. I also build electric guitars as a pure hobby.
     responsive_image:
       alt: Ante mihalj guitarist
       image_xs: /img/guitar-s.jpg
